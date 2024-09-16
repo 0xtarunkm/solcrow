@@ -6,7 +6,6 @@ export default function AppBar() {
   const router = useRouter();
   const path = usePathname();
 
-  console.log(path);
   return (
     <div className="flex items-center justify-between px-4 py-2 border-b border-slate-700 sticky top-0 z-20 bg-white">
       {/* left section */}
@@ -51,7 +50,7 @@ function HamburgerIcon() {
         viewBox="0 0 24 24"
         stroke-width="1.5"
         stroke="currentColor"
-        className="size-10 cursor-pointer"
+        className="size-7 cursor-pointer"
       >
         <path
           stroke-linecap="round"
