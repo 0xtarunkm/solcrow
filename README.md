@@ -1,4 +1,6 @@
 # Solcrow
+<img width="977" alt="Screenshot 2024-09-16 at 1 12 53 PM" src="https://github.com/user-attachments/assets/0f15cd76-aa80-450b-90c7-b2e86a59b0a9">
+<img width="1014" alt="Screenshot 2024-09-16 at 1 12 12 PM" src="https://github.com/user-attachments/assets/082a8d59-949a-41f9-ae18-653d32e6c28f">
 
 This decentralized application allows users to post job listings for work they need done, and freelancers can select these jobs, complete them, and get paid in a secure, trustless manner.
 
@@ -49,8 +51,8 @@ To install and build the project locally:
 
 ### Escrow Program
 
-The escrow program for solwork can be found at [escrow program](https://github.com/0xtarunkm/solcrow-escrow.git)
+The escrow program for solcrow can be found at [escrow program](https://github.com/0xtarunkm/solcrow-escrow.git)
 
 ### Marketplace Program
 
-The marketplace program for solwork can be found at [marketplace program](https://github.com/0xtarunkm/solcrow-marketplace.git)
+The marketplace program for solcrow can be found at [marketplace program](https://github.com/0xtarunkm/solcrow-marketplace.git)
