@@ -1,81 +1,56 @@
-# Turborepo starter
+# Solcrow
 
-This is an official starter Turborepo.
+This decentralized application allows users to post job listings for work they need done, and freelancers can select these jobs, complete them, and get paid in a secure, trustless manner.
 
-## Using this example
+## Features
 
-Run the following command:
+- **Create Listing**: Users can create job listings with details about the work they need done.
+- **Browse Listings**: Freelancers can browse through available listings to find work they want to complete.
+- **Select Listing**: Freelancers can choose a job to work on from the marketplace.
 
-```sh
-npx create-turbo@latest
-```
+## Table of Contents
 
-## What's inside?
+- [Solcrow](#solcrow)
+  - [Features](#features)
+  - [Table of Contents](#table-of-contents)
+  - [Installation](#installation)
+  - [Usage](#usage)
+    - [Escrow Program](#escrow-program)
+    - [Marketplace Program](#marketplace-program)
 
-This Turborepo includes the following packages/apps:
+## Installation
 
-### Apps and Packages
+To install and build the project locally:
 
-- `docs`: a [Next.js](https://nextjs.org/) app
-- `web`: another [Next.js](https://nextjs.org/) app
-- `@repo/ui`: a stub React component library shared by both `web` and `docs` applications
-- `@repo/eslint-config`: `eslint` configurations (includes `eslint-config-next` and `eslint-config-prettier`)
-- `@repo/typescript-config`: `tsconfig.json`s used throughout the monorepo
+1. Clone the repository:
 
-Each package/app is 100% [TypeScript](https://www.typescriptlang.org/).
+   ```bash
+   git clone https://github.com/0xtarunkm/solcrow.git
+   cd solcrow
+   ```
 
-### Utilities
+2. Install dependencies:
 
-This Turborepo has some additional tools already setup for you:
+   ```bash
+   yarn install
+   ```
 
-- [TypeScript](https://www.typescriptlang.org/) for static type checking
-- [ESLint](https://eslint.org/) for code linting
-- [Prettier](https://prettier.io) for code formatting
+3. Start in dev mode:
 
-### Build
+   ```bash
+   yarn dev
+   ```
 
-To build all apps and packages, run the following command:
+## Usage
 
-```
-cd my-turborepo
-pnpm build
-```
+1. **Create listing**: Create a new listing.
+2. **Deposit NFT**: Maker can deposit NFT in the vault
+3. **Withdraw NFT**: Maker can withdraw NFT once the job is done
 
-### Develop
+### Escrow Program
 
-To develop all apps and packages, run the following command:
+The escrow program for solwork can be found at [escrow program](https://github.com/0xtarunkm/solcrow-escrow.git)
 
-```
-cd my-turborepo
-pnpm dev
-```
+### Marketplace Program
 
-### Remote Caching
-
-Turborepo can use a technique known as [Remote Caching](https://turbo.build/repo/docs/core-concepts/remote-caching) to share cache artifacts across machines, enabling you to share build caches with your team and CI/CD pipelines.
-
-By default, Turborepo will cache locally. To enable Remote Caching you will need an account with Vercel. If you don't have an account you can [create one](https://vercel.com/signup), then enter the following commands:
-
-```
-cd my-turborepo
-npx turbo login
-```
-
-This will authenticate the Turborepo CLI with your [Vercel account](https://vercel.com/docs/concepts/personal-accounts/overview).
-
-Next, you can link your Turborepo to your Remote Cache by running the following command from the root of your Turborepo:
-
-```
-npx turbo link
-```
-
-## Useful Links
-
-Learn more about the power of Turborepo:
-
-- [Tasks](https://turbo.build/repo/docs/core-concepts/monorepos/running-tasks)
-- [Caching](https://turbo.build/repo/docs/core-concepts/caching)
-- [Remote Caching](https://turbo.build/repo/docs/core-concepts/remote-caching)
-- [Filtering](https://turbo.build/repo/docs/core-concepts/monorepos/filtering)
-- [Configuration Options](https://turbo.build/repo/docs/reference/configuration)
-- [CLI Usage](https://turbo.build/repo/docs/reference/command-line-reference)
+The marketplace program for solwork can be found at [marketplace program](https://github.com/0xtarunkm/solcrow-marketplace.git)
