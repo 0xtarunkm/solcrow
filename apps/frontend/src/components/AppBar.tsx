@@ -1,5 +1,6 @@
 'use client';
 
+import { WalletMultiButton } from '@solana/wallet-adapter-react-ui';
 import { usePathname, useRouter } from 'next/navigation';
 
 export default function AppBar() {
@@ -27,7 +28,7 @@ export default function AppBar() {
       </div>
 
       {/* right section */}
-      <div>
+      <div className="flex items-center space-x-6">
         <button
           className="text-lg font-semibold cursor-pointer"
           onClick={() =>
@@ -36,6 +37,7 @@ export default function AppBar() {
         >
           {path == '/signup' ? 'Login' : 'Sign up'}
         </button>
+        <WalletMultiButton />
       </div>
     </div>
   );
